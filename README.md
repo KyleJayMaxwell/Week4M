@@ -1,3 +1,4 @@
+#Kyle
 # Outline for Monday, October 5th
 - Review Wednesday's Exercises
 - Intro to jQuery
