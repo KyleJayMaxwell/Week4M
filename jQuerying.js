@@ -38,13 +38,15 @@ $(document).ready(function(){
 
 	$("ul li:last-child").click(function(){
 		$(this).css("font-size", "40px");
-		$("ul li:not(:last)").remove();
+		$(this).siblings().hide();
 	});
 
+	// Question 7
 
-
-
-
-
+	$('.cute').click(function(){
+		for(i=0;i<20;i++){
+			$(this).clone().insertAfter(this);
+		}
+	});
 
 });
